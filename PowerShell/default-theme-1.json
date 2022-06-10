@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
       "alignment": "left",
@@ -201,19 +200,6 @@
           "type": "kubectl"
         },
         {
-          "background": "#b2bec3",
-          "foreground": "#222222",
-          "leading_diamond": "\ue0b6",
-          "properties": {
-            "linux": "\ue27f",
-            "macos": "\ue27f",
-            "windows": "\ue27f"
-          },
-          "style": "diamond",
-          "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}<#262626> \ue0b2</>",
-          "type": "os"
-        },
-        {
           "background": "#f36943",
           "background_templates": [
             "{{if eq \"Charging\" .State.String}}#b8e994{{end}}",
@@ -236,7 +222,7 @@
           "background": "#40c4ff",
           "foreground": "#ffffff",
           "invert_powerline": true,
-          "leading_diamond": "\ue0b2",
+          "leading_diamond": "\ue0b6",
           "properties": {
             "time_format": "_2,15:04"
           },
